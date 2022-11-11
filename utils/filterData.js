@@ -6,7 +6,7 @@ export const filterData = [
         { name: 'Buy', value: 'for-sale' },
         { name: 'Rent', value: 'for-rent' },
       ],
-      placeholder: 'Purpose',
+      placeholder: 'Buy or Rent',
       queryName: 'purpose',
     },
     {

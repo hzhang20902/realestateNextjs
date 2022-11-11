@@ -38,8 +38,8 @@ const PropertyDetails = ({ propertyDetails: { price, rentFrequency, rooms, title
                     <Text fontWeight='bold'>{type}</Text>
                 </Flex>
                 <Flex justifyContent='space-between' w='400px' borderBottom='1px' borderColor='gray.100' p='3'>
-                    <Text>Purpose</Text>
-                    <Text fontWeight='bold'>{purpose}</Text>
+                    <Text>Leasing Option</Text>
+                    <Text fontWeight='bold'>{purpose === 'for-rent'? "Rental" : "Purchase"}</Text>
                 </Flex>
                 {furnishingStatus && (
                     <Flex justifyContent='space-between' w='400px' borderBottom='1px' borderColor='gray.100' p='3'>
