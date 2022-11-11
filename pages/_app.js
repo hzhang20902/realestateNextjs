@@ -6,6 +6,8 @@ import { NProgress } from 'nprogress'
 
 import Layout from '../components/Layout'
 
+//everything must be wrapped in chakraprovider, much like a container like canvas in react three
+
 function MyApp({ Component, pageProps }) {
   return (
     <>
